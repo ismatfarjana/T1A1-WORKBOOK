@@ -1,5 +1,5 @@
 > # T1A1 - Workbook
-## Q1: FIVE key events in the development of the internet ❓
+## Q1: Research the development of the internet from 1980 to today. You must describe at least FIVE key events in the development of the internet. You can refer to events, people of significance, or technologies and how they have changed over time.❓
 
 ### ❇ Ans:
 
@@ -41,11 +41,14 @@ Originally an ASCII text-only communications medium, Internet email was extended
 
 
 ---
-## Q2: Features of technologies that are essential in terms of the development of the internet ❓: 
- - packets
+## Q2:Define the features of the following technologies that are essential in terms of the development of the internet:
+  - packets
   - IP addresses (IPv4 and IPv6)
   - routers and routing
   - domains and DNS
+
+Explain how each technology has contributed to the development of the internet.❓
+ 
   
 ### ❇ Ans:
 
@@ -81,12 +84,13 @@ The Domain Name System also specifies the technical functionality of the databas
 [source](https://en.wikipedia.org/wiki/Domain_Name_System)
 
 ---  
-## Q3:  Features of technologies that are essential in terms of the development of the internet ❓: 
-
-- TCP
- - HTTP and HTTPS
+## Q3: Define the features of the following technologies that are essential in terms of the development of the internet:
+  - TCP
+  - HTTP and HTTPS
   - web browsers (requests, rendering and developer tools)
-### ❇ Ans:
+
+Explain how each technology has contributed to the development of client and server communication over the internet ❓: 
+
 #### * TCP:
 The Transmission Control Protocol (TCP) is one of the main protocols of the Internet protocol suite that originated in the initial network implementation in which it complemented the Internet Protocol (IP). The entire suite is commonly referred to as TCP/IP. TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network. Major internet applications such as the World Wide Web, email, remote administration, and file transfer rely on TCP, which is part of the Transport Layer of the TCP/IP suite. SSL/TLS often runs on top of TCP.
 
@@ -109,7 +113,7 @@ This process begins when the user inputs a Uniform Resource Locator (URL), such 
 [source](https://en.wikipedia.org/wiki/Web_browser)
 
 ---  
- ## Q4: THREE data structures used in the Ruby programming language and explain the reasons for using each.❓
+ ## Q4:Identify THREE data structures used in the Ruby programming language and explain the reasons for using each.❓
  ❇ Three Data structures Used in Ruby Programming are:
   - **Array**: An array is a collection that stores a list of values. It can store all kinds of items in a specific order unless something is done to change the order. The most useful function of an array is retrieving an element by the way of referring to its position. Setting a new element to a position or overwriting is another useful act of an array. 
   ***info link*** ➡️ [Array](http://ruby-for-beginners.rubymonstas.org/built_in_classes/arrays.html)
@@ -120,20 +124,16 @@ This process begins when the user inputs a Uniform Resource Locator (URL), such 
  
  
  ---
- ## Q5:  The features of interpreters and compilers and how they are different.❓
+ ## Q5:  Describe the features of interpreters and compilers and how they are different.❓
 ### ❇ Ans:
+### Interpreter:
+* Interpreter translates one statement at a time analizing the sourcecode faster. The code execution time is slower. No intermediate object code is generated. This is more memory efficience. Debugging is easier in interpriter.
+##### The example of Interpriter is Ruby, Python.
 
-### Feature difference of Interpreter and compiler
+### Compiler:
+* Compiler scans the entire program before transleting the whole into machine code and it analize the sourcecode slower then interpriter. The code execution time is faster. Intermediate object code is generated. This needs more memory. Debugging is harder in compiler.
+##### The example of Interpriter is C, C++, Java ☕.
 
-| point | Interpreter | Compiler |
-| -------- | -------- | -------- |
-| Transleting program     | one statement at a time.    | Scans the entire program before transleting the whole into machine code     |
-| Analyze the source code | faster | slower |
-| Execution time | slower | faster |
-| Intermediate object code | Not generated | Generated |
-| Memory efficiency | more memory efficient | requires more memory|
-| Debugging | easy | hard |
-| Examples | Ruby , Python | C, C++, Java ☕ |
 
 ➡️ [Source link for difference of interpreter and compiler ](https://www.programiz.com/article/difference-compiler-interpreter)
 
@@ -166,10 +166,42 @@ Java:
 
  
  ---
- ## Q7:  Identify TWO ethical issues and discus❓
- ### ❇
+ ## Q7: Identify TWO ethical issues from the areas below and discuss the extent to which an IT professional is ethically responsible in terms of the issue.
+
+List of topics containing ethical issues:
+  - access to a user’s personal information (medical, family, financial, personal attributes such as sexuality, religion, or beliefs)
+  - intellectual property, copyright, and acknowledgement.
+  - criminal acts such as theft, fraud, trafficking and distribution of prohibited substances, terrorism
+  - GPS tracking data and other types of metadata, MAC addresses, hardware fingerprints
+  - freedom of thought, conscience, speech and the media
+  - aggressive sales and marketing practices designed to mislead and deceive consumers
+  - trading of shares on the stock exchange OR crypto-currencies
+
+For each ethical issue identify a source of legal information relating to the ethical issue and discuss whether the law is helpful in assisting a developer to act in an ethical way.
+
+Conduct research into a case study of ONE of the ethical issues you have chosen discuss how an ethical IT professional should respond to the case study and how they might mitigate or prevent ethical breaches.❓
+ ### ❇Ans:
+ I think the following two issues are relevent to IT professionals.
+
+Access to user's personal information ( medical, family, financial, personal attributes such as sexuality, religion, or beliefs)
+  - Australian privacy laws are contained in a variety of Commonwealth, State and Territory Acts. The "Privacy Acts" are data protection laws which regulate the collection, use and disclosure of personal information about individuals; they do not protect privacy of the individual in a broader sense. Many companies follow this and encript data and arrange training for developer to handle personal data carefully so that an individual developer can not access it. So In my opinion, there are enough knowledge out there for a developer to help with make a ethical decession. 
+
+GPS tracking data and other types of metadata, MAC address, hardware fingerprints.
+  - Internet and other telecommunications services, ISPs and telephone service providers who mainly have access to user location, Mac address and hardware fingnerprints are also required to comply with the privacy protection provisions of the Telecommunications Act 1997 (C'th) and the Telecommunications (Interception) Act 1979 (C'th). A variety of other legislation contains privacy protection provisions relevant to particular types of entities and/or practices, for example, the Spam Act, surveillance and listening devices acts, and many others. Companies are pro active to follow this and encript data and arrange training for developer to handle personal data carefully so that an individual developer can not access it. So In my opinion, there are enough knowledge out there for a developer to help with make a ethical decession. 
+
+Case Study: 
+
+An investigation into Vodafone Hutchison Australia following allegations that customer information had been compromised showed that the company’s business model provided access to the company’s databases of customer information to dealership employees via a shared store login ID.
+
+Although the use of shared logins and the wide availability of full identity information is an inherent personal information security risk, in this instance the risk was increased by the fact that the entity had less control over information being accessed through dealerships, and no way of tracking or auditing who was accessing the information.
+
+To prevent this IT professional could flag that issue when building the feature and could suggest instead of showing the information without individuals permission, it could ask permisson from user weather they want to show their information on different dealership stores.
+[resource1](https://www.oaic.gov.au/privacy/privacy-decisions/investigation-reports/vodafone-hutchison-australia-own-motion-investigation-report/)
+[resource2](https://www.efa.org.au/Issues/Privacy/privacy.html)
+
+
  ---
- ## Q8: Explain control flow ❓
+ ## Q8:Explain control flow, using an example from the Ruby programming language❓
 ### ❇ Ans:
 
 Control flow is the order in which individual function calls of a program are exicuted.The control flow distinguishes an imperative programming language from a declarative programming language.
@@ -187,7 +219,7 @@ Within an imperative programming language, a control flow statement is a stateme
  [source](https://en.wikipedia.org/wiki/Type_conversion)
  
  ---
- ## Q10: Describe the data types recognised by the Ruby programming language ❓
+ ## Q10: Describe the data types recognised by the Ruby programming language. In your description you should give example code which uses each data type, and include the name of the Ruby classes which represent each data type. ❓
  ### ❇ Ans:
  
  The data types recognised by the Ruby programming language are:
@@ -239,9 +271,40 @@ This is how it looks:
 [source](http://ruby-for-beginners.rubymonstas.org/built_in_classes/hashes.html)
  
  ---
- ##  Q11: problem ❓
- ### ❇
- ##  Q12: Identify and explain the error of the following code ❓    
+ ##  Q11: Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”
+  - Identify the classes you would use to solve the problem
+  - Write a short explanation of why you would use the classes you have identified ❓
+ ### ❇Ans:
+ 
+ #### Classes:
+ 
+ ##### 1. Menu :
+ ###### Explanation:
+ Menu class wil hold the name of foods with asigned price of it so the customer can choose their food from the menu with the knowledge of price.
+ ##### 2.Customer: 
+ ###### Explanation:
+ Customer class will hold the details of each customer like, allargic alert, religous food choice, name, address, phone number so their favorite menu item could be saved for later.
+ ##### 3.Food:
+ ###### Explanation:
+ Food class will hold description about food.Like the allergic ingredients alert, whole ingredients with the nutritional value of the item.
+##### 4.Orderlist: 
+###### Explanation:
+Explanation class is here to hold chossen menu and sum up the bill for next time history showing and payment issue.
+##### 5.Ordertaker: 
+###### Explanation:
+Ordertaker class takes order list to chef for preparing the food item.
+##### 6.Foodmaker:
+###### Explanation: 
+Foodserver will cook the food.
+##### 7.Foodserver: 
+###### Explanation:
+ Foodmakre will serve the prepared food to the customer.
+##### 8.Paymentaker: 
+###### Explanation:
+Paymenttaker takes the bill and gives change if required.
+
+
+ ##  Q12: Identify and explain the error in the following code that is preventing correct execution of the program❓    
      celsius = gets
      fahrenheit = (celsius * 9 / 5) + 32
      print "The result is: "
@@ -263,15 +326,39 @@ This is how it looks:
   
  
  ---
- ## Q13: problem ❓
- ### ❇
- ## Q14: Demonstrate your algorithmic thinking ❓
- ### ❇
+ ## Q13: The following code looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly. ❓
+ ### ❇ Ans:
+ 
+ `arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]`
+ `i = 0`
+ `while (i < arr.size - 1 and arr[i] < arr[i + 1])`
+  `i = i + 1 end`
+ `puts i`
+ `item = arr[i]`
+ `arr[i] = arr[i + 1]`
+ `arr[i + 1] = item`
+ 
+
+ ## Q14: Demonstrate your algorithmic thinking through completing the following two tasks, in order:
+  i. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations  
+ii. Write pseudocode for the process outlined in your flowchart ❓
+ ### ❇ Ans:
+ 
+ #### FLOWCHART:
+ ![](docs/flowchart.png)
+ 
+ #### PSEUDOCODE:
+ ![](docs/pseudocode.png)
+
+
+ [link for flowchart and pseudocode lucide chart](https://app.lucidchart.com/invitations/accept/283c6561-83f8-4653-b1ef-3b14de066693)
  
  ---
- ## Q15: Pseudocode OR Ruby code ❓
+ ## Q15:Write pseudocode OR Ruby code for the following problem:
+
+You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”.	❓
  ### ❇ Ans:
- ![](https://i.imgur.com/ictVBlf.png)
+ ![](docs/q15pseudocode.png)
  
  ## [Lucidchart](https://www.lucidchart.com/invitations/accept/7a0f12fe-8cbf-4b18-a40c-94c68e72ad3e)
 ---
