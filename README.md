@@ -58,6 +58,7 @@ Packets are how we get content from the internet. When we request a piece of inf
 
 #### * IP addresses: 
 IP Address, or the Internet Protocol Address is used to identify a unique machine on a network. When we request any information from the internet, the request contains our local machine IP address and the IP address where it can get the information. IP address like a physical address made it possible to send data to a destination.
+[source](https://en.wikipedia.org/wiki/IP_address)
 
 #### * Routers and routing
 Router is a network hardware that helps to connect home device with the internet. It is used as a first line of security to protect computer system and information from external attack. And routing is the process that routers use to find a path to send traffic.
@@ -97,7 +98,7 @@ A web browser is an application that we use to get content from the World Wide W
   ***info link*** ➡️ [Array](http://ruby-for-beginners.rubymonstas.org/built_in_classes/arrays.html)
   - **Hash**: A useful form of storing objects similar to a dictionary where values are signed to keys so that values can be looked up by their key. Looking up a value by the key is one big function of hash. Two hashes can be merged by using `.merge` method and the value can be retrieved later by using `.fetch` method.
    ***info link*** ➡️ [Hash](http://ruby-for-beginners.rubymonstas.org/built_in_classes/hashes.html)
-  - **Binary trees**: The binary tree is an advanced level data structure of ruby that contains two child nods that may include references to their parents.
+  - **Binary trees**: The binary tree is an advanced level data structure of ruby that contains two child nodes that may include references to their parents.
    ***info link*** ➡️ [Binary tree](https://www.techopedia.com/definition/1145/binary-tree)
  
  
@@ -164,7 +165,7 @@ List of topics containing ethical issues:
 For each ethical issue identify a source of legal information relating to the ethical issue and discuss whether the law is helpful in assisting a developer to act in an ethical way.
 
 Conduct research into a case study of ONE of the ethical issues you have chosen discuss how an ethical IT professional should respond to the case study and how they might mitigate or prevent ethical breaches.❓
- ### ❇Ans:
+ ### ❇ Ans:
  I think the following two issues are relevent to IT professionals.
 
 Access to user's personal information ( medical, family, financial, personal attributes such as sexuality, religion, or beliefs)
@@ -193,7 +194,6 @@ Control flow is a major programming concept. Like other different programming la
  
  
  
- 
  --- 
  ## Q9:  Explain type coercion❓
  ### ❇ Ans:
@@ -207,6 +207,7 @@ Control flow is a major programming concept. Like other different programming la
  
  The data types recognised by the Ruby programming language are:
  * **Numbers**
+ 
 Number is a series of digit represent a mathematical number. It uses a dot as a decimal mark and underscore as a separator. As an example to add two numbers Ruby uses number to perform a mathematical operation. There are different kinds of numbers like Integers and Float.
 
 ```
@@ -217,6 +218,7 @@ Number is a series of digit represent a mathematical number. It uses a dot as a 
 [source](http://rubylearning.com/satishtalim/numbers_in_ruby.html)
 
 * **Strings**
+
 String represents a sentence or word. If we wrap a group of letters or numbers by a single quote('') or double quotes(""), it converts to a string.
 
 ```
@@ -226,6 +228,7 @@ String represents a sentence or word. If we wrap a group of letters or numbers b
 [source](https://www.digitalocean.com/community/tutorials/how-to-work-with-strings-in-ruby)
 
 * **Booleans**
+
 Boolean represent two states, either true or false. Ruby uses Boolean for conditional flows.
 
 ```
@@ -241,6 +244,7 @@ false.class = FalseClass
 [source](https://learn.co/lessons/booleans-ruby-readme)
 
 * **Arrays**
+ 
 Arry is used to store a list of data and they can hold any type of data and they are ordered. For example, if we want to store seven days in an array, their index will always be same
 
 ```
@@ -251,6 +255,7 @@ days.class = Array
 [source](http://ruby-for-beginners.rubymonstas.org/built_in_classes/arrays.html)
 
 * **Hashes**
+
  Hash is a key-value pair data structure which is commonly used to store data. For example, if we want to hold an user's information we can create a hash and store information like name and age as different pair. Keys can be a string, or a symbol, but the value could be any other data types.
 
 ```
@@ -278,12 +283,13 @@ user = {
 user.keys = [:name, :age]
 user.keys.first.class = Symbol
 ```
- 
+[source](https://en.wikipedia.org/wiki/Symbol_(programming)#:~:text=A%20symbol%20in%20computer%20programming,can%20be%20used%20as%20identifiers.&text=In%20the%20most%20trivial%20implementation,the%20enumerated%20type%20in%20C)
+
  ---
  ##  Q11: Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”
   - Identify the classes you would use to solve the problem
   - Write a short explanation of why you would use the classes you have identified ❓
- ### ❇Ans:
+ ### ❇ Ans:
  
  #### Classes:
  
@@ -326,27 +332,29 @@ Paymenttaker takes the bill and gives change if required.
  
  Here, `Celsius` is storing a string as an input which can not be coerced into integer. The stored input needs to convert into integer.
  The correct code is
-  ` celsius = gets.to_f`
-    `print "The result is: "`
-    `fahrenheit = (celsius * 9 / 5) + 32`
-    `print fahrenheit`
-    `puts '.'`
-   
+ ```
+    celsius = gets.to_f
+    print "The result is: "
+    fahrenheit = (celsius * 9 / 5) + 32
+    print fahrenheit
+    puts '.'
+   ```
   
  
  ---
  ## Q13: The following code looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly. ❓
  ### ❇ Ans:
  
- `arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]`
- `i = 0`
- `while (i < arr.size - 1 and arr[i] < arr[i + 1])`
-  `i = i + 1 end`
- `puts i`
- `item = arr[i]`
- `arr[i] = arr[i + 1]`
- `arr[i + 1] = item`
- 
+ ```
+ arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
+ i = 0
+ while (i < arr.size - 1 and arr[i] < arr[i + 1])
+  i = i + 1 end
+ puts i
+ item = arr[i]
+ arr[i] = arr[i + 1]
+ arr[i + 1] = item
+ ```
 
  ## Q14: Demonstrate your algorithmic thinking through completing the following two tasks, in order:
   i. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations  
