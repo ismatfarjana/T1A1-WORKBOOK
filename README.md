@@ -198,7 +198,7 @@ Control flow is a major programming concept. Like other different programming la
  ## Q9:  Explain type coercion❓
  ### ❇ Ans:
  
- Type coercion is the automatic or implicit conversion of values from one data type to another (such as strings to numbers).  An example would be the conversion of an integer value into a floating-point value or its textual representation as a string, and vice versa. Each programming language has its own rules on how types can be converted. Languages with strong typing typically do a little implicit conversion and discourage the reinterpretation of representations, while languages with weak typing perform many implicit conversions between data types. Weak typing language often allows forcing the compiler to arbitrarily interpret a data item as having different representations—this can be a non-obvious programming error or a technical method to directly deal with the underlying hardware.
+ Type coercion is a technique that is used in programming to convert one object to another object. This is widely used when a type of a piece of data needed to change in order to do some calculation or manipulation. For example, for an e-commerce online store, if the price of different items are saved as a string, we need to convert the price to a number before we can do any mathematical operation on it. In ruby we use.'to_i' to convert string to number. Likewise, we can also convert numbers to string using 'to_s'. Ruby also has other methods such as 'to_f', 'to_a', 'to_h' to convert data type. 
  [source](https://en.wikipedia.org/wiki/Type_conversion)
  
  ---
