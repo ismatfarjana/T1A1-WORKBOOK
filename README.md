@@ -6,39 +6,39 @@
 
 
 #### 1. 1985 - DNS:
->  The Domain Name System (DNS) is a naming system for computers, services, or other resources connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities. it translates more readily memorized domain names to the numerical IP addresses needed for locating and identifying computer services and devices with the underlying network protocols. By providing a worldwide, distributed directory service, the Domain Name System has been an essential component of the functionality of the Internet since 1985.The Domain Name System delegates the responsibility of assigning domain names and mapping those names to Internet resources by designating authoritative name servers for each domain. Network administrators may delegate authority over sub-domains of their allocated name space to other name servers. This mechanism provides distributed and fault-tolerant service and was designed to avoid a single large central database
 
+DNS, or the Domain Name System is like a phone book for the internet. When we type a domain name on the browser like google.com, DNS translates the URL into an IP address so that the browser can contact to that address to request online contents.
+
+Before DNS, people had to remember IP address to get information from the internet. DNS made internet use easy and user friendly.  
 [DNS info link](https://en.wikipedia.org/wiki/Domain_Name_System#History)
 
 
 #### 2. 1989 - WWW:
-> The World Wide Web (WWW), as known as the Web,  invented by English scientist Tim Berners-Leethe in 1989 is an information system that identifies documents and other web resources are by URLs, interlinked by hypertext, and is accessible over the Internet. The resources of the WWW are transferred via the Hypertext Transfer Protocol (HTTP) and accessed by users by a software application called a web browser and are published by a software application called a web server.
-. Tim Berners-Leethe wrote the first web browser in 1990 while employed at CERN near Geneva, Switzerland. It was released outside CERN in 1991, first to other research institutions starting in January 1991 and then to the general public in August 1991. The World Wide Web has been central to the development of the Information Age and is the primary tool billions of people use to interact on the Internet.
+WWW, or the world wide web is the collection of online contents where each content is in HTML format and we can access it via web browsers using the internet.
+
+Sir Tim Berners-Lee invented the world wide web in 1989 to easily share experiment data with fellow scientists. He relied on three main technologies namely HTML (Hypertext Markup Language), URL (Uniform Resource Locator), and HTTP (HyperText Transfer Protocol) to make www work. 
 
 [WWW info link](https://en.wikipedia.org/wiki/World_Wide_Web)
 
 
-#### 3. 1971 - Email:
+#### 3. 1991 - First web page created
+Berners-Lee first published public website in 1991. The purpose of the website was to explain what the world wide web is and the use of it.
 
-> Ray Tomlinson is credited as the inventor of email; in 1971 who developed the first system able to send mail between users on different hosts across the ARPANET, using the @ sign to link the user name with a destination server.
-Email operates across computer networks, primarily the Internet. Today's email systems are based on a store-and-forward model. Email servers accept, forward, deliver, and store messages. Neither the users nor their computers are required to be online simultaneously; they need to connect, typically to a mail server or a webmail interface to send or receive messages or download it.
-Originally an ASCII text-only communications medium, Internet email was extended by Multipurpose Internet Mail Extensions (MIME) to carry text in other character sets and multimedia content attachments. International email, with internationalized email addresses using UTF-8, is standardized but not widely adopted.
+This is really an important event because despite having the opportunity to sell the technology, Sir Berners-Lee makes it an open source and made a great contribution for a better connected world.
 
-[Email info link](https://en.wikipedia.org/wiki/Email)
+[source](https://www.history.com/news/the-worlds-first-web-site)
 
-#### 4. 2005 - Youtube:
+#### 4. 2005 - YouTube:
 
-> YouTube is an American online video-sharing platform created by three former PayPal employees-Chad Hurley, Steve Chen, and Jawed Karim in February 2005. Google bought the site in November 2006 for US$1.65 billion; YouTube now operates as one of Google's subsidiaries. YouTube allows users to upload, view, rate, share, add to playlists, report, comment on videos, and subscribe to other users. It offers a wide variety of user-generated and corporate media videos. Most content on YouTube is uploaded by individuals, but media corporations including CBS, the BBC, Vevo, and Hulu offer some of their material via YouTube as part of the YouTube partnership program. Unregistered users can only watch (but not upload) videos on the site, while registered users are also permitted to upload an unlimited number of videos and add comments to videos.
+YouTube is a video sharing platform based on America but widely popular throughout the earth. Chad Hurley, Steve Chen, and Jawed Karim co-founded YouTube in 2005. It started as an entertainment video sharing platform but now-a-days we can find all sort of tutorials and educational material here. I belive YouTube has helped people to dream of a world where education will be free for everyone.
 
 [Youtube info link](https://en.wikipedia.org/wiki/YouTube)
 
 #### 5. 1995 - Internet phone:
 
->  Almost a decade before Skype released its first client, an Israeli company called VocalTec released Internet Phone, which is regarded as the first commercial VoIP application for desktop computers. We were all rocking dial-up modems at this point, but the software's ability to deal with slow connections and Internet packet loss helped it pave the way for VoIP to hit the mainstream.
-
+Internet phones also known as broadband phone was introduced back in 1995 and was developed by Vocal Tech Communications Ltd. Similar to traditional phone, we use this technology for communication using voice but it uses the internet instead of electrical energy. It is most widely used Voice over Internet Protocol (VoIP) application device. It was one of the stepping stone for current days Skype, zoom, canvas, google meet etc.
 
 [Internet phone info](https://www.cnet.com/news/the-50-most-significant-moments-of-internet-history/)
-
 
 ---
 ## Q2:Define the features of the following technologies that are essential in terms of the development of the internet:
@@ -53,34 +53,20 @@ Explain how each technology has contributed to the development of the internet.�
 ### ❇ Ans:
 
 #### * packets:
-A packet is a formatted unit of data carried by a packet-switched network. A packet consists of control information and user data, which is also known as the payload. The control information provides data for delivering the payload, for example, source and destination network addresses, error detection codes, and sequencing information. Typically, control information is found in packet headers and trailers.
-
-In packet switching, the bandwidth of the communication medium is shared between multiple communication sessions, in contrast to circuit switching, in which circuits are preallocated for the duration of one session, and data is typically transmitted as a continuous bitstream.
+Packets are how we get content from the internet. When we request a piece of information such as a website all the content arrives as a series of packets. Normally a packet has 1000 to 1500 bytes in it. Each packet contains information about its source, destination, how many packets are coming and the number of the particular packet. Packets help make internet faster as it breaks the whole content into smaller pieces.
 [source](https://en.wikipedia.org/wiki/Network_packet)
 
 #### * IP addresses: 
-The numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication is called an  Internet Protocol address (IP address). It has two functions: host or network interface identification and location addressing.
-The IP address has the size of a 32-bit number is IPv4. However, because of the growth of the Internet and the depletion of available IPv4 addresses, a new version of IP (IPv6), using 128 bits for the IP address, was standardized in 1998. IPv6 deployment has been ongoing since the mid-2000s.IP addresses are written and displayed in human-readable notations. The size of the routing prefix of the address is designated in CIDR notation by suffixing the address with the number of significant bits.
+IP Address, or the Internet Protocol Address is used to identify a unique machine on a network. When we request any information from the internet, the request contains our local machine IP address and the IP address where it can get the information. IP address like a physical address made it possible to send data to a destination.
 
 #### * Routers and routing
-A networking device that forwards data packets between computer networks is called the router which performs the traffic directing functions on the Internet. Data sent through the internet, such as a web page or email, is in the form of data packets which is typically forwarded from one router to another router through the networks that constitute an internetwork until it reaches its destination node.
-
-A router is connected to two or more data lines from different IP networks. When a data packet comes in on one of the lines, the router reads the network address information in the packet header to determine the ultimate destination. Then, using the information in its routing table or routing policy, it directs the packet to the next network on its journey.
-
-The most familiar type of IP routers is home and small office routers that simply forward IP packets between the home computers and the Internet. An example of a router would be the owner's cable or DSL router, which connects to the Internet through an Internet service provider (ISP). More sophisticated routers, such as enterprise routers, connect large business or ISP networks up to the powerful core routers that forward data at high speed along the optical fiber lines of the Internet backbone.
+Router is a network hardware that helps to connect home device with the internet. It is used as a first line of security to protect computer system and information from external attack. And routing is the process that routers use to find a path to send traffic.
 [source](https://en.wikipedia.org/wiki/Router_(computing))
-
-The process of selecting a path for traffic in a network is called routing. Broadly, routing is performed in many types of networks, including circuit-switched networks, such as the public switched telephone network (PSTN), and computer networks, such as the Internet.
-
-In packet switching networks, routing is the higher-level decision making that directs network packets from their source toward their destination through intermediate network nodes by specific packet forwarding mechanisms. Packet forwarding is the transit of network packets from one network interface to another. Intermediate nodes are typically networked hardware devices such as routers, gateways, firewalls, or switches. General-purpose computers also forward packets and perform routing, although they have no specially optimized hardware for the task.
-
-The routing process usually directs forwarding on the basis of routing tables. Routing tables maintain a record of the routes to various network destinations. Routing tables may be specified by an administrator, learned by observing network traffic or built with the assistance of routing protocols.
 [source](hhttps://en.wikipedia.org/wiki/Routing)
 
 #### * Domains and DNS 
-The Domain Name System (DNS) is a  naming system for computers, services, or other resources connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities. Most prominently, it translates more readily memorized domain names to the numerical IP addresses needed for locating and identifying computer services and devices with the underlying network protocols. By providing a worldwide, distributed directory service, the Domain Name System has been an essential component of the functionality of the Internet since 1985. The Domain Name System delegates the responsibility of assigning domain names and mapping those names to Internet resources by designating authoritative name servers for each domain. Network administrators may delegate authority over sub-domains of their allocated name space to other name servers. This mechanism provides a distributed and fault-tolerant service and was designed to avoid a single large central database.
+A domain name is a unique identifying address that is used to visit websites. And the Domain Name System or DNS is like a phone book for the internet. When we type a domain name on the browser like google.com, DNS translates the URL into an IP address so that the browser can contact to that address to request online contents.
 
-The Domain Name System also specifies the technical functionality of the database service that is at its core. It defines the DNS protocol, a detailed specification of the data structures, and data communication exchanges used in the DNS, as part of the Internet Protocol Suite.
 [source](https://en.wikipedia.org/wiki/Domain_Name_System)
 
 ---  
@@ -92,24 +78,16 @@ The Domain Name System also specifies the technical functionality of the databas
 Explain how each technology has contributed to the development of client and server communication over the internet ❓: 
 
 #### * TCP:
-The Transmission Control Protocol (TCP) is one of the main protocols of the Internet protocol suite that originated in the initial network implementation in which it complemented the Internet Protocol (IP). The entire suite is commonly referred to as TCP/IP. TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network. Major internet applications such as the World Wide Web, email, remote administration, and file transfer rely on TCP, which is part of the Transport Layer of the TCP/IP suite. SSL/TLS often runs on top of TCP.
-
-TCP is connection-oriented, and a connection between client and server is established (passive open) before data can be sent. Three-way handshake (active open), retransmission, and error-detection adds to reliability but lengthens latency. Applications that do not require reliable data stream service may use the User Datagram Protocol (UDP), which provides a connectionless datagram service that prioritizes time over reliability. TCP employs network congestion avoidance. However, there are vulnerabilities to TCP including denial of service, connection hijacking, TCP veto, and reset attack. For network security, monitoring, and debugging, TCP traffic can be intercepted and logged with a packet sniffer.
+TCP stands for Transmission control protocol. It maintains a connection with the host computer to the destination server via the port number with the guarantee to secure packets delivery. It considered as one of the main protocols of the Internet Protocol Suite as this makes sure the data is in the right order and none are missing. Which ensures the quality of communication between client and server.
 [source](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
 
 #### * HTTP AND HTTPS
-The Hypertext Transfer Protocol (HTTP) is an application protocol for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser.
-
-Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Transfer Protocol (HTTP). It is used for secure communication over a computer network and is widely used on the Internet. In HTTPS, the communication protocol is encrypted using Transport Layer Security (TLS) or, formerly, its predecessor, Secure Sockets Layer (SSL). The protocol is therefore also referred to as HTTP over TLS, or HTTP over SSL.
-
-The principal motivations for HTTPS are authentication of the accessed website, and protection of the privacy and integrity of the exchanged data while in transit. It protects against man-in-the-middle attacks, and the bidirectional encryption of communications between a client and server protects the communications against eavesdropping and tampering. In practice, this provides a reasonable assurance that one is communicating with the intended website without interference from attackers.
+HTTP, or The Hypertext Transfer Protocol is an application protocol that help to transfer data over the World Wide Web. HTTP also clarify how data are formatted and transmitted. It also defines what response should a browser take when it receives the data. While HTTP is unsecured, HTTPS, or the Hypertext Transfer Protocol Secure is secured. It protects the integrity and privacy of the data during communication between server and client.
 [source](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
 [source](https://en.wikipedia.org/wiki/HTTPS)
 
 #### * web browsers:
-A web browser (commonly referred to as a browser) is a software application for accessing the information on the World Wide Web. When a user requests a web page from a particular website, the web browser retrieves the necessary content from a web server and then displays the resulting web page on the screen. The purpose of a web browser is to fetch information resources from the Web and display them on a user's device.
-
-This process begins when the user inputs a Uniform Resource Locator (URL), such as https://en.wikipedia.org/, into the browser. Virtually all URLs on the Web start with either HTTP: or https: which means the browser will retrieve them with the Hypertext Transfer Protocol (HTTP). In the case of https: the communication between the browser and the webserver is encrypted for the purposes of security and privacy.Once a web page has been retrieved, the browser's rendering engine displays it on the user's device. This includes image and video formats supported by the browser.
+A web browser is an application that we use to get content from the World Wide Web including webpages, images, video, and other files. When we request any information by typing domain address, it receives the requested content from the internet as HTML format and then display the information on a page. It makes communication between client and server really easy and user friendly.
 [source](https://en.wikipedia.org/wiki/Web_browser)
 
 ---  
@@ -126,13 +104,19 @@ This process begins when the user inputs a Uniform Resource Locator (URL), such 
  ---
  ## Q5:  Describe the features of interpreters and compilers and how they are different.❓
 ### ❇ Ans:
-### Interpreter:
-* Interpreter translates one statement at a time analizing the sourcecode faster. The code execution time is slower. No intermediate object code is generated. This is more memory efficience. Debugging is easier in interpriter.
-##### The example of Interpriter is Ruby, Python.
 
-### Compiler:
-* Compiler scans the entire program before transleting the whole into machine code and it analize the sourcecode slower then interpriter. The code execution time is faster. Intermediate object code is generated. This needs more memory. Debugging is harder in compiler.
-##### The example of Interpriter is C, C++, Java ☕.
+In the world of computer science to do any kind of work we need to send the command to the computer. If I assume that a member of human species lands on an alien planet with a broken spaceship. Now the human needs some help from the alien but no one understands others language. We need a "middle man" helping hand to translate the need of humans to the member of the fellow alien species. If we suppose the alien friend is the computer and the instruction list to fix the spaceship is the command to be passed on,  this is where the explanation of  "Interpreter" and "compiler" starts. Suppose there are two types of helping robots that can translate the situation in the alien language.
+
+The interpreter will take the list of notes from humans and will translate it step by step to the alien language and then the alien fellow will do that step. This one step at a  time method can keep going until the work is done. And if by any chance human gives a wrong note, there is enough time to correct that by giving the right notes to Interpreter and let the alien do it again until the work is finished happily. Though it is a little slower in the end the space ship is all ready to fly up high again without any bigger harm.
+
+On the other hand, the Compiler will take the list of notes, will translate the whole at once, and will say bye-bye. All this might be a little more time consuming but after this everything is going to be very fast. After handing over the translated list to the alien friend, he can fix the spaceship so fast without any interruption.  Now if the human gave some wrong instruction by mistake that was translated by the compiler, there is no way to stop the alien friend for correcting the problem because the compiler is not there anymore. So in the end, there is a big chance of doing big harm to that spaceship. The process seems faster but there is a big chance of doing it all wrong while working with the compiler. 
+
+This is the exact way the interpreter and the compiler work on the computer.
+#### Interpreter:
+The Interpreter is a computer program that starts right away, takes its time to run while translating the command, and gives the chance of fixing any mistakes by giving the chance of monitoring the result. The interpreter is always in between the program and the computer. It translates line by line.
+#### Compiler:
+The compiler is the program that takes an extra long time to prepare the translation all at once but after that, the program will run very quickly. Compiler piles together with the entire program and translates the whole thing all at once.
+
 
 
 ➡️ [Source link for difference of interpreter and compiler ](https://www.programiz.com/article/difference-compiler-interpreter)
@@ -328,16 +312,15 @@ Paymenttaker takes the bill and gives change if required.
  ---
  ## Q13: The following code looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly. ❓
  ### ❇ Ans:
- ```
- arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
- i = 0
- while (i < arr.size - 1 and arr[i] < arr[i + 1])
-  i = i + 1 end
- puts i
- item = arr[i]
- arr[i] = arr[i + 1]
- arr[i + 1] = item
- ```
+ 
+ `arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]`
+ `i = 0`
+ `while (i < arr.size - 1 and arr[i] < arr[i + 1])`
+  `i = i + 1 end`
+ `puts i`
+ `item = arr[i]`
+ `arr[i] = arr[i + 1]`
+ `arr[i + 1] = item`
  
 
  ## Q14: Demonstrate your algorithmic thinking through completing the following two tasks, in order:
@@ -345,24 +328,54 @@ Paymenttaker takes the bill and gives change if required.
 ii. Write pseudocode for the process outlined in your flowchart ❓
  ### ❇ Ans:
  
- #### FLOWCHART:
- ![](docs/flowchart.png)
+ #### Flowchart:
+ ![](https://i.imgur.com/UbUa91m.png)
+
  
- #### PSEUDOCODE:
- ![](docs/pseudocode.png)
+ #### Pseudocode: 
+``` 
+Initialize a prime number collection
+For each number from 1 to 100
+  Initialize divisible counter to zero
+  For each number from 1 to this number
+    If that number is divisible by this number
+      add one to the divisible counter
+  If divisible counter is equal to two
+    add this number to prime number collection 
+print prime number collection
+```
 
-
- [link for flowchart and pseudocode lucide chart](https://app.lucidchart.com/invitations/accept/283c6561-83f8-4653-b1ef-3b14de066693)
  
  ---
  ## Q15:Write pseudocode OR Ruby code for the following problem:
 
 You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”.	❓
  ### ❇ Ans:
- ![](docs/q15pseudocode.png)
+ ### **Ruby code:**
  
- ## [Lucidchart](https://www.lucidchart.com/invitations/accept/7a0f12fe-8cbf-4b18-a40c-94c68e72ad3e)
----
+ ``` writting code:
+ def weather(temperature, raining)
+  if temperature < 15
+    if raining
+      puts "It’s wet and cold"
+    else 
+      puts "It’s not raining but cold"
+    end
+  elsif temperature >= 15
+    if raining
+      puts "It’s warm and raining"
+    else 
+      puts "It’s warm but not raining"
+    end
+  end
+end 
+
+```
+
+
+
+
+
 
  ## Q16: Write a program that, given a person’s score can tell them:
   ## a. whether or not they’re allergic to a given item❓
