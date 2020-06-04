@@ -63,7 +63,8 @@ IP Address, or the Internet Protocol Address is used to identify a unique machin
 #### * Routers and routing
 Router is a network hardware that helps to connect home device with the internet. It is used as a first line of security to protect computer system and information from external attack. And routing is the process that routers use to find a path to send traffic.
 [source](https://en.wikipedia.org/wiki/Router_(computing))
-[source](hhttps://en.wikipedia.org/wiki/Routing)
+
+[source](https://en.wikipedia.org/wiki/Routing)
 
 #### * Domains and DNS 
 A domain name is a unique identifying address that is used to visit websites. And the Domain Name System or DNS is like a phone book for the internet. When we type a domain name on the browser like google.com, DNS translates the URL into an IP address so that the browser can contact to that address to request online contents.
@@ -191,7 +192,7 @@ To prevent this IT professional could flag that issue when building the feature 
 
 Control flow is a major programming concept. Like other different programming languages, Ruby also uses conditionals and loops to control the flow of any program. Conditionals help execute code for a specific condition. For example, if we have a program that will display 'cold' when the temperature is under 10 degrees and display 'hot' when the condition is above 30 degrees, we can use Ruby language's if elsif else statement to check the temperature and display the message. Loops help execute code multiple times. For example, if we want to display a message 100 times we can use Ruby languages 'times' method to do that. 
  
- 
+ [source](https://en.wikipedia.org/wiki/Control_flow)
  
  
  --- 
