@@ -188,9 +188,8 @@ To prevent this IT professional could flag that issue when building the feature 
  ## Q8:Explain control flow, using an example from the Ruby programming language❓
 ### ❇ Ans:
 
-Control flow is the order in which individual function calls of a program are exicuted.The control flow distinguishes an imperative programming language from a declarative programming language.
-
-Within an imperative programming language, a control flow statement is a statement that results in a choice being made as to which of two or more paths to follow. For non-strict functional languages, functions and language constructs exist to achieve the same result, but they are usually not termed control flow statements.
+Control flow is a major programming concept. Like other different programming languages, Ruby also uses conditionals and loops to control the flow of any program. Conditionals help execute code for a specific condition. For example, if we have a program that will display 'cold' when the temperature is under 10 degrees and display 'hot' when the condition is above 30 degrees, we can use Ruby language's if elsif else statement to check the temperature and display the message. Loops help execute code multiple times. For example, if we want to display a message 100 times we can use Ruby languages 'times' method to do that. 
+ 
  
  
  
