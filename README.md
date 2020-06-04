@@ -206,52 +206,78 @@ Control flow is a major programming concept. Like other different programming la
  ### ❇ Ans:
  
  The data types recognised by the Ruby programming language are:
-* **Booleans**
+ * **Numbers**
+Number is a series of digit represent a mathematical number. It uses a dot as a decimal mark and underscore as a separator. As an example to add two numbers Ruby uses number to perform a mathematical operation. There are different kinds of numbers like Integers and Float.
 
- In Ruby, a boolean refers to a value of either true or false of their very own data types. Every appearance of truth in a Ruby program is an instance of TrueClass, while every appearance of false is an instance of FalseClass. There are three main boolean operators in ruby: 
-* ! ("single-bang") representing "NOT",  for example: !true #=> false
-* && ("double-ampersand") representing "AND", for example: true && true #=> true
-* || ("double-pipe") representing "OR". 
-
-To check if two values are equal, we use the comparison operator represented with == ("double-equal-sign"). If two values are equal, then the statement will return true. If they are not equal, then it will return false.
-
-[source](https://learn.co/lessons/booleans-ruby-readme)
-
-* **Symbols**
-
-A symbol looks like a variable name prefixed with a colon. Ruby uses symbols and maintains a Symbol Table to hold them. Symbols are names - names of instance variables, names of methods, names of classes. So if there is a method called control_movie, there is automatically a symbol :control_movie. Ruby's interpreted, so it keeps its Symbol Table handy at all times. You can find out what's on it at any given moment by calling Symbol.all_symbols.
-We can also transform a String into a Symbol and vice-versa:
-
-`puts "string".to_sym.class # Symbol  `
-`puts :symbol.to_s.class    # String `
-
-* **Numbers**
-
-Ruby integers are objects of class Fixnum or Bignum. The Fixnum and Bignum classes represent integers of differing sizes. Both classes descend from Integer (and therefore Numeric). The floating-point numbers are objects of class Float, corresponding to the native architecture's double data type.
+```
+2 + 2.5 = 4.5
+2.class = Integer
+2.5.class = Float
+```
 [source](http://rubylearning.com/satishtalim/numbers_in_ruby.html)
 
 * **Strings**
+String represents a sentence or word. If we wrap a group of letters or numbers by a single quote('') or double quotes(""), it converts to a string.
 
-A string is a sequence of a bunch of characters that may consist of letters, numbers, or symbols.
-In Ruby, strings are objects, which are mutable, which means they can be changed in place instead of creating new strings. 
-For printing a string the bunch of characters is written  like this
-print "This is a string."
-or, puts "This is a string which will make a line break at the end."
+```
+"2".class = String
+'name'.class = String
+```
 [source](https://www.digitalocean.com/community/tutorials/how-to-work-with-strings-in-ruby)
 
-* **Arrays**
+* **Booleans**
+Boolean represent two states, either true or false. Ruby uses Boolean for conditional flows.
 
-Arrays are like bags that contain things in order which can be multidimensional. Counting on array starts with zero index, which means the first item in array is index zero, the next one is index one. It is Array class object. 
-words = ["one", "two", "three"]
-puts words[0] => one
+```
+if true
+    print 'this is true'
+else
+    print 'this is false'
+end
+
+true.class = TrueClass
+false.class = FalseClass
+```
+[source](https://learn.co/lessons/booleans-ruby-readme)
+
+* **Arrays**
+Arry is used to store a list of data and they can hold any type of data and they are ordered. For example, if we want to store seven days in an array, their index will always be same
+
+```
+days = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+days[0] = "Sunday"
+days.class = Array
+```
 [source](http://ruby-for-beginners.rubymonstas.org/built_in_classes/arrays.html)
 
 * **Hashes**
- 
- A Hash assigns values to keys so that values can be looked up by their key like a dictionary. In Ruby you can create a Hash by assigning a key to a value with =>, separate these key/value pairs with commas and enclose the whole thing with curly braces. The class of this type of object is the Hash class.
-This is how it looks:
-{ "one" => "a", "two" => "b", "three" => "c" }
+ Hash is a key-value pair data structure which is commonly used to store data. For example, if we want to hold an user's information we can create a hash and store information like name and age as different pair. Keys can be a string, or a symbol, but the value could be any other data types.
+
+```
+user = {
+  name: 'Isabela',
+  age: 4,
+}
+
+user[:name] = "Isabela"
+user[:age] = 4
+user.class = Hash
+```
 [source](http://ruby-for-beginners.rubymonstas.org/built_in_classes/hashes.html)
+ 
+
+* **Symbols**
+
+Symbols are used as a light weight and better performing alternative of string. But symbol can only represent a word, whereas string can represent sentences. The most popular use of the symbol as a key of hashes.
+
+```
+user = {
+  :name => 'Isabela',
+  :age => 4,
+}
+user.keys = [:name, :age]
+user.keys.first.class = Symbol
+```
  
  ---
  ##  Q11: Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”
